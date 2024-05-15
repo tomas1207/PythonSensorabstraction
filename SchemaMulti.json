@@ -1,0 +1,44 @@
+{
+    "serverConfig": {
+        "serverName": "localhost",
+        "serverPort": 8080,
+        "serverProtocol": "http",
+        "MainApiArchitecture": "REST",
+        "MainApiVersion": "1.0",
+        "MainApiName": "MainApi",
+        "MainApiDescription": "Main API",
+        "MainApiBasePath": "/api"
+    },
+    "sensors": {
+        "altitude_sensor": {
+            "keys": [
+                "altitude"
+            ],
+            "TypeOfAPI": "REST",
+            "APIVersion": "1.0",
+            "IP": "192.168.1.10",
+            "Port": "8080",
+            "BasePath": "/altitude"
+        },
+        "speed_sensor": {
+            "keys": [
+                "speed"
+            ],
+            "TypeOfAPI": "REST",
+            "APIVersion": "1.0",
+            "IP": "192.168.1.10",
+            "Port": "8080",
+            "BasePath": "/speed"
+        },
+        "fuel_sensor": {
+            "keys": [
+                "fuel_level"
+            ],
+            "TypeOfAPI": "REST",
+            "APIVersion": "1.0",
+            "IP": "192.168.1.10",
+            "Port": "8080",
+            "BasePath": "/fuel"
+        }
+    }
+}

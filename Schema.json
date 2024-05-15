@@ -1,0 +1,23 @@
+{
+    "serverConfig":
+    {
+        "serverName": "localhost",
+        "serverPort": 8080,
+        "serverProtocol": "http",
+        "MainApiArchitecture": "REST",
+        "MainApiVersion": "1.0",
+        "MainApiName": "MainApi",
+        "MainApiDescription": "Main API",
+        "MainApiBasePath": "/api"
+    },
+    "sensors":{
+        "sensor1":{
+            "keys":["Sensor API Protraties"],
+            "TypeOfAPI":"REST",
+            "APIVersion":"1.0",
+            "IP":"12.45.46.50",
+            "Port":"8080",
+            "BasePath":"/api"
+        }
+    }
+}

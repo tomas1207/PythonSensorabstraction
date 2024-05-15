@@ -1,0 +1,30 @@
+[
+    {
+      "sensor_id": "altitude_sensor",
+      "sensor_type": "altitude",
+      "data": {
+        "timestamp": "2024-05-15T12:00:00",
+        "value": 35000,
+        "unit": "feet"
+      }
+    },
+    {
+      "sensor_id": "speed_sensor",
+      "sensor_type": "speed",
+      "data": {
+        "timestamp": "2024-05-15T12:00:00",
+        "value": 550,
+        "unit": "mph"
+      }
+    },
+    {
+      "sensor_id": "fuel_sensor",
+      "sensor_type": "fuel",
+      "data": {
+        "timestamp": "2024-05-15T12:00:00",
+        "value": 6000,
+        "unit": "gallons"
+      }
+    }
+  ]
+  
